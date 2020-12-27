@@ -47,5 +47,5 @@ jobs:
       
       # Action 4: run Surge
       - name: Deploy to Surge
-        run: surge ./build project003_shaiq.surge.sh --token{{secrets.SURGE_TOKEN}}
+        run: surge ./build project003_shaiq.surge.sh --token ${{secrets.SURGE_TOKEN}}
           
